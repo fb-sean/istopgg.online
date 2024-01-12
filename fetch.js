@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
             return;
         }
 
-        // window.location.href = response.body.isOnline ? 'https://istopgg.online/online' : 'https://istopgg.online/offline';
+        window.location.href = response.body.isOnline ? 'https://istopgg.online/online' : 'https://istopgg.online/offline';
     }).catch(() => {
 
     });
