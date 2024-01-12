@@ -55,8 +55,8 @@ window.addEventListener('load', () => {
             link: 'https://top.gg/bot/1101256478632972369',
         },
         {
-            name: 'Pridebot',
-            link: 'https://top.gg/bot/563434444321587202',
+            name: 'Green-Bot',
+            link: 'https://top.gg/bot/783708073390112830',
         },
     ];
 
