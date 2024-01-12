@@ -19,13 +19,17 @@ window.addEventListener('load', () => {
         "credentials": "include"
     }).then((response) => {
         if(response.status !== 200) {
-            window.location.href = 'https://istopgg.online/offline';
+            // window.location.href = 'https://istopgg.online/offline';
 
             return;
         }
 
-        window.location.href = 'https://istopgg.online/online'
-    }).catch(() => {
-        window.location.href = 'https://istopgg.online/offline';
+        console.log(response);
+
+        // window.location.href = 'https://istopgg.online/online'
+    }).catch((error) => {
+        console.log(error);
+
+        // window.location.href = 'https://istopgg.online/offline';
     });
 });
