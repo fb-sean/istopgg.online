@@ -5,6 +5,9 @@ window.addEventListener('load', () => {
         }
 
         const body = await response.json();
+
+        console.debug(body.isOnline ? `Top.gg is currently online.` : `Top.gg is currently offline.`);
+
         window.location.href = body.isOnline ? 'https://istopgg.online/online' : 'https://istopgg.online/offline';
     }).catch(() => {
 
