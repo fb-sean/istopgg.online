@@ -1,10 +1,11 @@
 window.addEventListener('load', () => {
-    fetch('https://api.sattler.dev/check_topgg').then((response) => {
+    fetch('https://api.sattler.dev/check_topgg').then(async (response) => {
         if(response.status !== 200) {
             return;
         }
 
-        window.location.href = response.body.isOnline ? 'https://istopgg.online/online' : 'https://istopgg.online/offline';
+        const body = await response.json();
+        window.location.href = body.isOnline ? 'https://istopgg.online/online' : 'https://istopgg.online/offline';
     }).catch(() => {
 
     });
