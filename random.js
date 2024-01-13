@@ -58,6 +58,10 @@ window.addEventListener('load', () => {
             name: 'Green-Bot',
             link: 'https://top.gg/bot/783708073390112830',
         },
+        {
+            name: 'Discortics',
+            link: 'https://top.gg/bot/739735540483752006',
+        },
     ];
 
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
