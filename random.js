@@ -63,5 +63,5 @@ window.addEventListener('load', () => {
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
 
     button.innerHTML = `${randomBot.name}`;
-    button.href = randomBot.link;
+    button.href = window.isOffline ? randomBot.link.replace('top.gg', 'wumpus.store') : randomBot.link;
 });
