@@ -27,10 +27,6 @@ window.addEventListener('load', () => {
             link: 'https://top.gg/bot/762217899355013120',
         },
         {
-            name: 'Himiko',
-            link: 'https://top.gg/bot/1008142696801648711',
-        },
-        {
             name: 'Daily Music',
             link: 'https://top.gg/bot/1115972980984516719',
         },
