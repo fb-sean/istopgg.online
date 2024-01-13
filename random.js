@@ -70,6 +70,10 @@ window.addEventListener('load', () => {
             name: 'Kiai',
             link: 'https://top.gg/bot/518129184338345985',
         },
+        {
+            name: 'Bookmarker',
+            link: 'https://top.gg/bot/935447281929449532',
+        },
     ];
 
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
