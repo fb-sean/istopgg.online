@@ -66,6 +66,10 @@ window.addEventListener('load', () => {
             name: 'TTS Bot',
             link: 'https://top.gg/bot/513423712582762502',
         },
+        {
+            name: 'Kiai',
+            link: 'https://top.gg/bot/518129184338345985',
+        },
     ];
 
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
