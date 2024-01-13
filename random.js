@@ -62,6 +62,10 @@ window.addEventListener('load', () => {
             name: 'Discortics',
             link: 'https://top.gg/bot/739735540483752006',
         },
+        {
+            name: 'TTS Bot',
+            link: 'https://top.gg/bot/513423712582762502',
+        },
     ];
 
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
