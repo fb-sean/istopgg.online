@@ -74,6 +74,10 @@ window.addEventListener('load', () => {
             name: 'Killua',
             link: 'https://top.gg/bot/756206646396452975',
         },
+        {
+            name: 'EasyThreads',
+            link: 'https://top.gg/bot/992796487048233000',
+        },
     ];
 
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
