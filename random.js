@@ -78,6 +78,10 @@ window.addEventListener('load', () => {
             name: 'EasyThreads',
             link: 'https://top.gg/bot/992796487048233000',
         },
+        {
+            name: 'AutoQuoter',
+            link: 'https://top.gg/bot/1248262328986894437',
+        },
     ];
 
     const randomBot = bots[Math.floor(Math.random() * bots.length)];
